@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>	
+	<head>
+		<link rel="stylesheet" type="text/css" href="shopping.css"/>
+		<title>Shopping List</title>
+	</head>
+
+<body>
+	<h1>My Shopping List</h1>
+	
+	<ul id = "list">
+	</ul>
+	
+	<form>
+		<input type="text" id="name" placeholder = "Item" size="30">
+		<input type="number" id="price" placeholder = "Price" size="30">
+		<button type ="button" id= "addtolist" onclick="addToList(), resetForm()">Add to My List</button>
+		<!-- button pushes data into array, but does not regenerate the shopping list -->
+	</form>
+	
+
+<script type="text/javascript" src="shoppinglist.js"></script>
+</body>
+</html>

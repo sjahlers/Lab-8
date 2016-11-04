@@ -1,0 +1,28 @@
+h1 {
+	font-family: cursive;
+	color: purple;
+}
+
+#addtolist {
+	font-family: cursive;
+	background-color: lightgreen;
+	color: purple;
+	border: 1px solid purple;
+	border-radius: 5px;
+	font-size: 1em;
+}
+
+li {
+	font-family: cursive;
+	font-size: 1em;
+	list-style: none;
+}
+
+#list-total {
+	color: purple;
+	font-size: 1.25em;
+	padding: 10px;
+}
+
+
+
